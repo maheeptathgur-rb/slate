@@ -1,11 +1,12 @@
 ---
-title: API Reference
+title: Custom API Reference
 
 language_tabs:
   - shell
   - ruby
   - python
   - javascript
+  - java
 
 toc_footers:
   - <a href='#'>Sign Up for a Developer Key</a>
@@ -24,6 +25,18 @@ Welcome to the Kittn API! You can use our API to access Kittn API endpoints, whi
 We have language bindings in Shell, Ruby, and Python! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
 
 This example API documentation page was created with [Slate](https://github.com/tripit/slate). Feel free to edit it and use it as a base for your own API's documentation.
+klasldj 
+sdf4
+ads
+f asdl;fk asdl;kf 
+asdf a
+sdflk as;
+dlfk al;
+sdkf 
+al;sdkf lsd;kf a
+sdf asd
+l fkasl;
+dfk ;
 
 # Authentication
 
@@ -51,6 +64,12 @@ curl "api_endpoint_here"
 const kittn = require('kittn');
 
 let api = kittn.authorize('meowmeowmeow');
+```
+
+```java
+# With shell, you can just pass the correct header with each request
+curl "api_endpoint_here"
+  -H "Authorization: meowmeowmeow"
 ```
 
 > Make sure to replace `meowmeowmeow` with your API key.
